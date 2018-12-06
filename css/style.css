@@ -1,0 +1,193 @@
+/*** IMPORT ***/
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i,700|Roboto+Condensed:400,700|Roboto+Mono:400,700|Roboto:400,700');
+
+/*** ALLGEMEIN ***/
+* {
+  box-sizing: border-box;
+
+}
+body {
+  font-family: 'Space Mono', 'consolas', monospace;
+  font-size: 14px;
+  color: black;
+  padding: 50px;
+  height: 300vh;
+}
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.row::after {
+  clear: both;
+  display: table;
+  content: "";
+}
+.col-33 {
+  width: 33.3333%;
+  float: left;
+}
+.col-50 {
+  width: 50%;
+  float: left;
+}
+.col-75 {
+  width: 75%;
+  float: left;
+}
+.col-25 {
+  width: 25%;
+  float: left;
+}
+.border {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  z-index: 117;
+}
+.btop {
+  top: 0;
+}
+.bbottom {
+  bottom: 0;
+}
+
+/*** TEXT ***/
+
+h1 {
+  font-size: 1.6em;
+  line-height: 1.2em;
+}
+h2 {
+  font-size: 1.2em;
+  line-height: 1em;
+}
+h3 {
+  font-size: 1em;
+  font-weight: bold;
+}
+p {
+  font-size: 1em;
+  line-height: ;: 1.2em;
+}
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+.backtooverview {
+  font-size: 2.4em !important;
+  background-color: black;
+  color: white;
+  border: 3px solid #000;
+}
+.backtooverview:hover {
+  background-color: white;
+  color: black;
+}
+.verticaltext {
+  display: block;
+  margin-right: -239px;
+  transform: rotate(90deg);
+  transform-origin: bottom left;
+  line-height: 2.8em;
+}
+
+/*** NAVIGATIONSLEISTE ***/
+aside {
+  display: inline-block;
+  padding-right: 50px;
+  height: calc(100vh - 100px);
+  border-right: 3px solid black;
+  background-color: white;
+  position: fixed;
+}
+
+/** KOPF **/
+a.logo {
+  display: block;
+  margin-bottom: 50px;
+}
+aside nav a:hover {
+  font-style: italic;
+}
+
+
+/*** PREVIEW ***/
+main {
+  margin-left: 300px;
+}
+main .col-33 {
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+.vorschaubild h2 {
+  font-weight: bold;
+  padding: 10px;
+  color: white;
+  background-color: black;
+  margin-top: 1px;
+  border: 3px solid black;
+}
+.vorschaubild:hover h2 {
+  background-color: white;
+  color: black;
+}
+.artikel {
+  margin-left: 142.5px;
+}
+.header {
+  position: relative;
+  z-index: -1;
+}
+.text {
+  background-color: white;
+}
+.artikel h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.4em;
+  padding: 25px 0;
+  position: sticky;
+  top: 50px;
+  background-color: white;
+}
+.text h3 {
+  line-height: 1.4em;
+}
+.text p {
+  line-height: 1.4em;
+}
+.text ul {
+  margin: 25px 0 25px 50px;
+  line-height: 1.4em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***/
