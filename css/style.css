@@ -194,8 +194,14 @@ main .col-33 {
   .col-75 {
     width: 100%;
   }
+  .col-33 {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 700px) {
+  main {
+    margin-left: 0;
+  }
   body {
     padding: 20px;
   }
@@ -212,6 +218,13 @@ main .col-33 {
   }
   .artikel {
     margin-left: 85.5px;
+  }
+  .home-aside {
+    position: relative;
+    border: none;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
   }
 }
 @media screen and (max-width: 450px) {
