@@ -227,7 +227,7 @@ main .col-33 {
     background-color: white;
     color: black;
     margin-bottom: 20px;
-    width: calc(100vw - 57px);
+    width: 100px;
     text-align: center;
     display: block;
   }
