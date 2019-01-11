@@ -189,4 +189,53 @@ main .col-33 {
 
 
 
-/***/
+/*** RESPONSIVE ***/
+@media screen and (max-width: 1000px) {
+  .col-75 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
+  body {
+    padding: 20px;
+  }
+  .border {
+    height: 20px;
+  }
+  aside {
+    height: calc(100vh - 40px);
+    padding-right: 20px;
+  }
+  .artikel h2 {
+    position: sticky;
+    top: 20px;
+  }
+  .artikel {
+    margin-left: 85.5px;
+  }
+}
+@media screen and (max-width: 450px) {
+  aside {
+    position: relative;
+    border: none;
+    height: auto;
+  }
+  .verticaltext {
+    display: none;
+  }
+  .backtooverview {
+    background-color: white;
+    color: black;
+    margin-bottom: 20px;
+    width: calc(100vw - 57px);
+    text-align: center;
+    display: block;
+  }
+  .backtooverview:hover {
+    color: white;
+    background-color: black;
+  }
+  .artikel {
+    margin-left: 0;
+  }
+}
