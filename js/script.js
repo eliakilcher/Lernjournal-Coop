@@ -13,6 +13,13 @@ function parallax(){
 $(document).ready(function() {
   $('.menu-button').click(function(event) {
     $(".menu").toggleClass("menu-block");
-    $(".menu-button").toggleClass("backtooverview:hover");
+		$(".menu-button").html("close")
+		$(".menu").addClass("menu-text");
+  });
+});
+$(document).ready(function() {
+  $('.menu-text').click(function(event) {
+    $(".menu-text").removeClass("menu-text");
+		$(".menu-button").html("apps")
   });
 });
